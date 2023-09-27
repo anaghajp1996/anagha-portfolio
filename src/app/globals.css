@@ -2,3 +2,16 @@ body, html {
   background-color: #2C3A47;
   color: #F97F51;
 }
+
+h1 {
+  font-size: 3vmax;
+  margin: 8px 0px;
+  text-align: center;
+}
+
+h4 {
+  color: #F8EFBA;
+  font-size: 2.5vmax;
+  text-align: center;
+  margin: 8px 0px;
+}
