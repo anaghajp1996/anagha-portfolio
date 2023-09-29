@@ -9,4 +9,6 @@
     text-align: right;
     position: relative;
     right: 0;
+    float: top;
+    margin: 16px;
 }
