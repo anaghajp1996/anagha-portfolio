@@ -1,13 +1,15 @@
 .profileImage {
   border-style: solid;
   border-radius: 50%;
-  border-color: white;
-  border-width: 2px;
+  border-color: #182C61;
+  border-width: 5px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .home {
     display: 'flex';
     flex-direction: column;
+    gap: 16px;
+    align-items: center;
   }
 }

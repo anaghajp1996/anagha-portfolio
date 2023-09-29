@@ -1,17 +1,17 @@
-body, html {
-  background-color: #2C3A47;
-  color: #F97F51;
-}
-
 h1 {
+  color: #F97F51;
   font-size: 3vmax;
   margin: 8px 0px;
-  text-align: center;
 }
 
 h4 {
-  color: #F8EFBA;
+  color: #182C61;
   font-size: 2.5vmax;
-  text-align: center;
   margin: 8px 0px;
+}
+
+@media only screen and (max-width: 800px) {
+  h1, h4 {
+    text-align: center;
+  }
 }

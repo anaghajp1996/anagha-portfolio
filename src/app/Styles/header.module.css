@@ -1,0 +1,12 @@
+.header a {
+    color: #82589F;
+    padding-right: 16px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.header {
+    text-align: right;
+    position: relative;
+    right: 0;
+}
