@@ -3,12 +3,13 @@
     padding-right: 16px;
     font-weight: 700;
     text-decoration: none;
+    padding: 0px 32px;
 }
 
 .header {
-    text-align: right;
-    position: relative;
-    right: 0;
+    text-align: center;
+    position: sticky;
     float: top;
+    top: 0;
     margin: 16px;
 }

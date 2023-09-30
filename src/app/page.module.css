@@ -56,7 +56,7 @@
 .aboutMeSection {
   display: 'flex';
   align-items: center;
-  padding: 0px 180px;
+  padding: 0px 8px;
 }
 
 @media only screen and (max-width: 800px) {
