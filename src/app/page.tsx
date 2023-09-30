@@ -15,7 +15,7 @@ export default function Home() {
       <div className={style.home} style={{display: 'flex', margin: '24px', alignItems: "center", height: "100%"}}>
         <div style={{textAlign: "center"}}>
           <h1>Anagha Jayaprakash</h1>
-          <text style={{letterSpacing: '15px', color: '#182C61', fontWeight: 'bold', fontSize: '25px'}}>SOFTWARE ENGINEER</text>
+          <text style={{letterSpacing: '15px', color: '#182C61', fontWeight: 'bold', fontSize: '3vw'}}>SOFTWARE ENGINEER</text>
           <h4>Mobile Application Development | Web Development </h4>
         </div>
         <div className={style.aboutMeSection} style={{}}>

@@ -47,16 +47,17 @@
 
 .aboutMe {
   color: #182C61;
-  font-size: 14;
+  font-size: 2vw;
   margin: 8px 0px;
   text-align: left;
   font-weight: bold;
+  font-weight: 4vw;
 }
 
 .aboutMeSection {
   display: 'flex';
   align-items: center;
-  padding: 0px 8px;
+  padding: 0px 32px;
 }
 
 @media only screen and (max-width: 800px) {
@@ -65,12 +66,4 @@
     align-items: center;
     padding: 0px 32px;
   }
-}
-
-.nameText {
-  color: #F97F51;
-  font-size: 64px;
-  font-weight: bold;
-  margin: 8px 0px;
-  text-align: center;
 }
