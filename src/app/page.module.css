@@ -1,15 +1,17 @@
 .profileImage {
-  border-style: solid;
-  border-radius: 50%;
-  border-color: #182C61;
-  border-width: 5px;
+  padding-right: 150px;
+}
+
+.aboutMeSection {
+  position: relative;
+  display: flex;
+  align-Items: "center";
+  padding: 0px 32px
 }
 
 .profileImageDiv {
   width: 300px;
   height: 300px;
-  position: relative;
-  margin-left: 32px;
 }
 
 @media only screen and (max-width: 800px) {
@@ -23,6 +25,7 @@
   .profileImage {
     width: 200px;
     height: 200px;
+    padding-right: 16px;
   }
 }
 
@@ -40,4 +43,34 @@
   display: 'flex';
   flex-direction: column;
   gap: 24px;
+}
+
+.aboutMe {
+  color: #182C61;
+  font-size: 14;
+  margin: 8px 0px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.aboutMeSection {
+  display: 'flex';
+  align-items: center;
+  padding: 0px 180px;
+}
+
+@media only screen and (max-width: 800px) {
+  .aboutMeSection {
+    display: 'flex';
+    align-items: center;
+    padding: 0px 32px;
+  }
+}
+
+.nameText {
+  color: #F97F51;
+  font-size: 64px;
+  font-weight: bold;
+  margin: 8px 0px;
+  text-align: center;
 }

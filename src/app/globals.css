@@ -1,19 +1,12 @@
 h1 {
   color: #F97F51;
-  font-size: 16;
+  /* font-size: 16; */
   margin: 8px 0px;
   text-align: center;
 }
 
 h4 {
   color: #182C61;
-  font-size: 14;
-  margin: 8px 0px;
-  text-align: center;
-}
-
-h3 {
-  color: #6D214F;
   font-size: 14;
   margin: 8px 0px;
   text-align: center;
