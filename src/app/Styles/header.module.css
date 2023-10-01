@@ -14,8 +14,12 @@
 
 .header {
     text-align: center;
-    position: sticky;
+    position: fixed;
     float: top;
     top: 0;
-    margin: 16px;
+    padding: 16px 0px;
+    z-index: 1;
+    width: 100%;
+    background-color: white;
+    box-shadow: 1px 1px 3px #82589F;
 }

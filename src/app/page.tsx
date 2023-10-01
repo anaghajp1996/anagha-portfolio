@@ -2,15 +2,13 @@ import { Open_Sans } from "next/font/google"
 import Image from "next/image";
 import style from "./page.module.css"
 import Header from "./header";
-import header from "./Styles/header.module.css"
-import { relative } from "path";
-import Contact from "./contact"
+import Footer from "./footer";
 
 const openSans = Open_Sans({subsets: ['latin']});
 
 export default function Home() {
   return (
-    <div className={openSans.className} style={{height: '100%'}}>
+    <div id="home" className={openSans.className} style={{height: '100%'}}>
       <Header></Header>
       <div className={style.home} style={{display: 'flex', margin: '24px', alignItems: "center", height: "100%"}}>
         <div style={{textAlign: "center"}}>
@@ -20,10 +18,10 @@ export default function Home() {
         </div>
         <div className={style.aboutMeSection} style={{}}>
           <Image className={style.profileImage} src={'/Memoji_Hi.png'} width={300} height={300} alt=""></Image>
-          <text className={style.aboutMe}> I'm passionate about crafting mobile and web apps from the ground up. With a keen eye for design and a commitment to user-centric solutions, I specialize in creating applications with intuitive interfaces!</text>
+          <text className={style.aboutMe}> I'm passionate about crafting applications from the ground up. With a keen eye for design, I specialize in creating applications with intuitive interfaces!</text>
         </div>
       </div>
-      <Contact/>
+      <Footer/>
     </div>
   )
 }
