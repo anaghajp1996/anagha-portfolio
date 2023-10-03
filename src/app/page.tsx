@@ -3,6 +3,7 @@ import Image from "next/image";
 import style from "./page.module.css"
 import Header from "./header";
 import Footer from "./footer";
+import Expertise from "./expertise";
 
 const openSans = Open_Sans({subsets: ['latin']});
 
@@ -21,6 +22,7 @@ export default function Home() {
           <text className={style.aboutMe}> I'm passionate about crafting applications from the ground up. With a keen eye for design, I specialize in creating applications with intuitive interfaces!</text>
         </div>
       </div>
+      <Expertise/>
       <Footer/>
     </div>
   )
