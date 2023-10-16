@@ -1,7 +1,7 @@
 .footer {
     text-align: center;
-    position: fixed;
-    float: bottom;
+    /* position: fixed; */
+    /* float: bottom; */
     bottom: 0;
     padding: 16px 0px;
     z-index: 1;

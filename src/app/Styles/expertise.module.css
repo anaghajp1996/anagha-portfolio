@@ -1,0 +1,14 @@
+.table {
+    border-collapse: collapse; 
+    width: 100%;
+}
+
+.table tr {
+    border-bottom: 0.5px solid black;
+}
+
+.table th {
+    padding: 16px;
+    font-weight: 400;
+    text-align: left;
+}
