@@ -2,9 +2,8 @@
     background-color: #FFE0D4;
     border-radius: 50px;
     color: #F97F51;
+    display:inline-block;
+    padding: 4px 12px;
+    margin: 8px;
+    font-weight: 600;
 }
-
-/* .techIcon h4 {
-    color: #F97F51;
-    opacity: 1;
-} */

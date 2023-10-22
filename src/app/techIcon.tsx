@@ -6,6 +6,6 @@ const openSans = Open_Sans({subsets: ['latin']});
 
 export default function TechIcon({title}) {
     return (
-        <h4 className={openSans.className + ' ' + style.techIcon}>{title}</h4>
+        <text className={openSans.className + ' ' + style.techIcon}>{title}</text>
     );
 }

@@ -3,7 +3,7 @@ import Image from "next/image";
 import style from "./page.module.css"
 import Header from "./header";
 import Footer from "./footer";
-import Expertise from "./expertise";
+import Expertise from "./Expertise/expertise";
 
 const openSans = Open_Sans({subsets: ['latin']});
 
