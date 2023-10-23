@@ -1,15 +1,15 @@
-import { Open_Sans } from "next/font/google"
+import { Mulish } from "next/font/google"
 import Image from "next/image";
 import style from "./page.module.css"
 import Header from "./header";
 import Footer from "./footer";
 import Expertise from "./Expertise/expertise";
 
-const openSans = Open_Sans({subsets: ['latin']});
+const mulish = Mulish({subsets: ['latin']});
 
 export default function Home() {
   return (
-    <div id="home" className={openSans.className} style={{height: '100%'}}>
+    <div id="home" className={mulish.className} style={{height: '100%'}}>
       <Header></Header>
       <div className={style.home} style={{display: 'flex', margin: '24px', alignItems: "center", height: "100%"}}>
         <div style={{textAlign: "center"}}>

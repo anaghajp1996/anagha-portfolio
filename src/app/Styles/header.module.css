@@ -1,25 +1,30 @@
 .header a {
-    color: #82589F;
-    padding-right: 16px;
-    font-weight: 700;
+    color: white;
     text-decoration: none;
-    padding: 0px 32px;
     text-transform: uppercase;
-    font-size: 1.5vw;
+    font-size: 0.833vw;
+    letter-spacing: 2.64px;
 }
 
 .header a:hover {
-    text-shadow: 1px 1px 3px pink;
+    text-shadow: 0px 1px 1px white;
 }
 
 .header {
-    text-align: center;
-    position: fixed;
-    float: top;
-    top: 0;
-    padding: 16px 0px;
-    z-index: 1;
-    width: 100%;
-    background-color: white;
-    box-shadow: 1px 1px 3px #82589F;
+    text-transform: uppercase;
+    /* border-bottom: 1px solid #414141; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 32px;
+}
+
+.links {
+    display: flex;
+    gap: 32px;
+}
+
+.border {
+    border-bottom: 1px solid #414141;
+    margin-left: 15%;
 }
