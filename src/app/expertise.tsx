@@ -1,9 +1,9 @@
 /* eslint-disable react/jsx-key */
-import style from "../Styles/expertise.module.css"
+import style from "./Styles/expertise.module.css"
 import { Mulish } from "next/font/google"
-import TechIcon from "../techIcon";
-import "../Constants"
-import { technologyUsed } from "../Constants";
+import TechIcon from "./techIcon";
+import "./Constants"
+import { technologyUsed } from "./Constants";
 
 const mulish = Mulish({subsets: ['latin']});
 

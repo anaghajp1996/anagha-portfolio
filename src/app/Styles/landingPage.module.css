@@ -1,0 +1,49 @@
+.firstName {
+    color: #FFF;
+    font-size: 3.07455vw;
+    font-weight: 500;
+    letter-spacing: 16.91px;
+}
+
+.lastName {
+    color: #FFF;
+    font-size: 3.07455vw;
+    font-weight: 900;
+    letter-spacing: 16.91px;
+}
+
+.title {
+    color: #FFF;
+    font-size: 1.24075vw;
+    font-weight: 500;
+    letter-spacing: 18.735px;
+}
+  
+.aboutMeSection {
+    position: relative;
+    display: flex;
+    align-Items: "center";
+    padding: 0px 32px
+}
+  
+@media only screen and (max-width: 800px) {
+    .profileImage {
+      width: 200px;
+      height: 200px;
+      padding-right: 16px;
+    }
+}
+  
+@media only screen and (max-width: 800px) {
+    .home {
+      display: 'flex';
+      flex-direction: column;
+      gap: 16px;
+      align-items: center;
+    }
+}
+  
+.home {
+    justify-content: space-between;
+    padding: 128px 64px;
+}
