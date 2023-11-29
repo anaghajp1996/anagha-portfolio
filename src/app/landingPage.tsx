@@ -3,16 +3,19 @@ import style from "./Styles/landingPage.module.css"
 
 export default function LandingPage() {
     return (
-        <div>
-            <div className={style.home} style={{display: "flex"}}>
+        <div style={{borderBottom: '1px solid #414141'}}>
+            <div className={style.home} style={{display: "flex", paddingLeft: "15%", paddingRight: "15%"}}>
                 <div style={{textAlign: "left", display: "flex", flexDirection: "column"}}>
                     <text className={style.firstName}>Anagha</text>
                     <text className={style.lastName}>Jayaprakash</text>
                     <div style={{height: '16px'}}></div>
                     <text className={style.title}>SOFTWARE ENGINEER</text>
                 </div>
-                <div className={style.aboutMeSection} style={{}}>
-                    <Image className={style.profileImage} src={'/Memoji_Hi.png'} width={300} height={300} alt=""></Image>
+                <div className={style.images} >
+                    <Image className={style.codeScreenshot2} src={'/CodeScreenshot2.png'} width="300" height="200" alt=""></Image>
+                    <Image className={style.codeScreenshot3} src={'/CodeScreenshot3.png'} width="300" height="200" alt=""></Image>
+                    <Image className={style.profileImage} src={'/Memoji.png'} width={300} height={300} alt=""></Image>
+                    <Image className={style.codeScreenshot} src={'/CodeScreenshot.png'} width="300" height="200" alt=""></Image> 
                 </div>
             </div>
         </div>
