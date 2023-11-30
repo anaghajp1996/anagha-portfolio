@@ -1,5 +1,5 @@
 .header a {
-    color: white;
+    color: black;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 1vw;
@@ -7,7 +7,7 @@
 }
 
 .header a:hover {
-    text-shadow: 0px 1px 1px white;
+    text-shadow: 0px 1px 1px rgba(43, 75, 157, 0.55);
 }
 
 .header {
@@ -26,4 +26,11 @@
 .border {
     border-bottom: 1px solid #414141;
     margin-left: 15%;
+}
+
+.fixed {
+    position: sticky;
+    z-index: 7;
+    top: 0px;
+    background-color: white;
 }

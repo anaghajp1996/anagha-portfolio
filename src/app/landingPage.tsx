@@ -3,7 +3,7 @@ import style from "./Styles/landingPage.module.css"
 
 export default function LandingPage() {
     return (
-        <div style={{borderBottom: '1px solid #414141'}}>
+        <div style={{borderBottom: '1px solid #414141', margin: '0 60px'}}>
             <div className={style.home} style={{display: "flex", paddingLeft: "15%", paddingRight: "15%"}}>
                 <div style={{textAlign: "left", display: "flex", flexDirection: "column"}}>
                     <text className={style.firstName}>Anagha</text>
@@ -14,7 +14,7 @@ export default function LandingPage() {
                 <div className={style.images} >
                     <Image className={style.codeScreenshot2} src={'/CodeScreenshot2.png'} width="300" height="200" alt=""></Image>
                     <Image className={style.codeScreenshot3} src={'/CodeScreenshot3.png'} width="300" height="200" alt=""></Image>
-                    <Image className={style.profileImage} src={'/Memoji.png'} width={300} height={300} alt=""></Image>
+                    <Image className={style.profileImage} src={'/Memoji.png'} width={200} height={200} alt=""></Image>
                     <Image className={style.codeScreenshot} src={'/CodeScreenshot.png'} width="300" height="200" alt=""></Image> 
                 </div>
             </div>

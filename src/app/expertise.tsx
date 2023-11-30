@@ -10,7 +10,7 @@ const mulish = Mulish({subsets: ['latin']});
 export default function Expertise() {
     return (
     <div id="expertise" className={mulish.className} style={{padding: "16px 32px", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", gap: "16px"}}>
-        <text className={style.heading}>My Expertise</text>
+        <text className={style.heading}>What I Do..</text>
         <table className={style.table}>
             <tbody>
             {

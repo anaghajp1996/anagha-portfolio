@@ -4,7 +4,7 @@ import Logo from './logo';
 
 export default function Header() {
     return (
-        <div>
+        <div className={header.fixed}>
             <div className={header.header}>
                 <Logo/>
                 <div className={header.links}>
@@ -13,9 +13,7 @@ export default function Header() {
                     <Link href="">Resume</Link>
                 </div>
             </div>    
-            <div className={header.border}>
-                
-            </div>    
+            <div className={header.border}></div>    
         </div>
     );
 }
