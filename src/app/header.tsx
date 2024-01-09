@@ -10,7 +10,7 @@ export default function Header() {
                 <div className={header.links}>
                     <Link href="#home">Home</Link>
                     <Link href="#expertise">Expertise</Link>
-                    <Link href="">Resume</Link>
+                    <Link href="Anagha Jayaprakash Resume.pdf" target="_blank">Resume</Link>
                 </div>
             </div>    
             <div className={header.border}></div>    

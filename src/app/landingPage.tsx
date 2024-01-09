@@ -3,7 +3,7 @@ import style from "./Styles/landingPage.module.css"
 
 export default function LandingPage() {
     return (
-        <div style={{borderBottom: '1px solid #414141', margin: '0 60px'}}>
+        <div style={{borderBottom: '0.5px solid #414141', margin: '0 60px'}}>
             <div className={style.home} style={{display: "flex", paddingLeft: "15%", paddingRight: "15%"}}>
                 <div style={{textAlign: "left", display: "flex", flexDirection: "column"}}>
                     <text className={style.firstName}>Anagha</text>

@@ -19,3 +19,12 @@
     letter-spacing: 5.792px;
     padding: 32px 0px;
 }
+
+.subHeading {
+    font-size: 1.547vw;
+    font-weight: 500;
+    padding: 32px 0px;
+    letter-spacing: 2.792px;
+    line-height: 40px;
+    text-align: center;
+}
