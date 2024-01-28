@@ -4,6 +4,7 @@ import { Mulish } from "next/font/google"
 import TechIcon from "./techIcon";
 import "./Constants"
 import { technologyUsed } from "./Constants";
+import Work from "./work";
 
 const mulish = Mulish({subsets: ['latin']});
 
@@ -11,10 +12,7 @@ export default function Expertise() {
     return (
     <div id="expertise" className={mulish.className} style={{padding: "16px 32px", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", gap: "16px"}}>
         <text className={style.heading}>Some of my work!</text>
-        <text className={style.subHeading}>In addition to have released over 4 applications in my previous role, I built a couple of projects aiming to explore and learn new topics. Check them out!</text>
-        <div style={{display: "flex", width: "100%", justifyContent: "space-around"}}>
-            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7143332405519482881?compact=1" height="399" width="450" allowFullScreen style={{border: "none"}} title="Embedded post"></iframe>
-            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7133255164643201024?compact=1" height="399" width="450" allowFullScreen style={{border: "none"}} title="Embedded post"></iframe>
-        </div>
+        <Work src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7143332405519482881?compact=1" title="The Snake Game" description="Created a seamless user engagement by precisely controlling the snake's movement and path manoeuvring. " subTitle="A captivating iOS-based recreation of the iconic Snake game." techUsed={["SwiftUI", "Swift", "Core Animation"]}></Work>
+        <Work src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7133255164643201024?compact=1" title="Ripples" description="Created a fun UI experience in creating ripples as a way of learning animations and user gestures." subTitle="An explorative SwiftUI that creates ripples on tap." techUsed={["SwiftUI", "Swift", "Core Animation"]}></Work>
     </div>);
 }
