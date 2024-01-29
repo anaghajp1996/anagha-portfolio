@@ -1,5 +1,5 @@
 h1 {
-  color: #F97F51;
+  color: #f97f51;
   font-size: 4vw;
   margin: 8px 0px;
   text-align: center;
@@ -7,12 +7,13 @@ h1 {
 
 h4 {
   font-size: 2vw;
-  color: #182C61;
+  color: #182c61;
   margin: 8px 0px;
   text-align: center;
 }
 
-body, html {
+body,
+html {
   height: 100vmin;
   margin: 0px;
   scroll-behavior: smooth;
