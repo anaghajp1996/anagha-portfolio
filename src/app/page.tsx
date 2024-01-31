@@ -8,8 +8,12 @@ const mulish = Mulish({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <div id="home" className={mulish.className} style={{ height: "100%" }}>
-      <Header></Header>
+    <div
+      id="home"
+      className={mulish.className}
+      style={{ height: "100%", scrollBehavior: "smooth" }}
+    >
+      <Header home={"#home"} expertise={"#expertise"}></Header>
       <LandingPage />
       <Expertise />
       <Footer />

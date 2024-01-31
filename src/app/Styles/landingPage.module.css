@@ -22,7 +22,6 @@
 }
 
 .images {
-  /* padding: 0px 32px; */
   display: grid;
   align-items: center;
   position: relative;
@@ -75,4 +74,17 @@
 .home {
   justify-content: space-between;
   padding: 128px 64px;
+}
+
+.button {
+  color: #fff;
+  font-size: 1vw;
+  border-radius: 28.406px;
+  background: #3f2bb9;
+  width: fit-content;
+  padding: 8px 32px;
+  margin-top: 8px;
+  border: none;
+  font-weight: 200;
+  text-decoration: none;
 }

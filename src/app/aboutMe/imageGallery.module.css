@@ -1,0 +1,16 @@
+.imageCard {
+  margin: 10px;
+  overflow: hidden;
+}
+
+.imageCard img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.imageCard:hover img {
+  transform: scale(1.1);
+}

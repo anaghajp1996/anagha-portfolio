@@ -1,16 +1,16 @@
 import Link from "next/link";
 import header from "./Styles/header.module.css";
 
-export default function Header() {
+export default function Header({ home, expertise }) {
   return (
     <div className={header.fixed}>
       <div className={header.header}>
-        <Link href="#home" className={header.logo}>
+        <Link href={home} className={header.logo}>
           Anagha Jayaprakash
         </Link>
         <div className={header.links}>
-          <Link href="#home">Home</Link>
-          <Link href="#expertise">Expertise</Link>
+          <Link href={home}>Home</Link>
+          <Link href={expertise}>Expertise</Link>
           <Link href="Anagha Jayaprakash Resume.pdf" target="_blank">
             Resume
           </Link>

@@ -14,7 +14,7 @@ export default function Expertise() {
       id="expertise"
       className={mulish.className}
       style={{
-        padding: "16px 32px",
+        padding: "16px 160px",
         margin: "32px",
         display: "flex",
         flexDirection: "column",
