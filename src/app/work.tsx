@@ -1,12 +1,17 @@
 import TechIcon from "./techIcon";
 import style from "./Styles/work.module.css";
+import Link from "next/link";
+import Image from "next/image";
 
 interface WorkProps {
   title: string;
   subTitle: string;
   description: string;
   techUsed: string[];
-  src: string;
+  imageSrc: string;
+  postSrc: string;
+  height: number;
+  width: number;
 }
 
 export default function Work(prop: WorkProps) {
@@ -17,18 +22,21 @@ export default function Work(prop: WorkProps) {
         width: "100%",
         padding: "16px",
         gap: "64px",
-        boxShadow: "1px 1px 4px grey",
-        borderRadius: "5px",
+        boxShadow: "0px 0.5px 5px 0px rgba(63, 43, 185, 0.20);",
+        borderRadius: "20px",
       }}
     >
-      <iframe
-        src={prop.src}
-        height="249"
-        width="300"
-        allowFullScreen
-        style={{ border: "none" }}
-        title="Embedded post"
-      ></iframe>
+      <div
+        style={{ width: "300px", display: "flex", justifyContent: "center" }}
+      >
+        <Image
+          src={prop.imageSrc}
+          height={prop.height}
+          width={prop.width}
+          alt=""
+        ></Image>
+      </div>
+
       <div
         style={{
           display: "flex",
@@ -37,7 +45,9 @@ export default function Work(prop: WorkProps) {
           justifyContent: "start",
         }}
       >
-        <text className={style.title}>{prop.title}</text>
+        <Link href={prop.postSrc} className={style.title}>
+          {prop.title}
+        </Link>
         <text className={style.subTitle}>{prop.subTitle}</text>
         <text className={style.description}>{prop.description}</text>
         <div style={{ display: "flex", gap: "8px", paddingTop: "8px" }}>

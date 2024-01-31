@@ -15,6 +15,7 @@ export default function Expertise() {
       className={mulish.className}
       style={{
         padding: "16px 160px",
+        paddingBottom: "120px",
         margin: "32px",
         display: "flex",
         flexDirection: "column",
@@ -26,14 +27,20 @@ export default function Expertise() {
     >
       <text className={style.heading}>Some of my work!</text>
       <Work
-        src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7143332405519482881?compact=1"
+        imageSrc="/Snake.png"
+        postSrc="https://www.linkedin.com/posts/anaghakj_swiftui-gamedevelopment-swift-activity-7143332473588834304-wTeu?utm_source=share&utm_medium=member_desktop"
+        width={180}
+        height={300}
         title="The Snake Game"
         description="Created a seamless user engagement by precisely controlling the snake's movement and path manoeuvring. "
         subTitle="A captivating iOS-based recreation of the iconic Snake game."
         techUsed={["SwiftUI", "Swift", "Core Animation"]}
       ></Work>
       <Work
-        src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7133255164643201024?compact=1"
+        imageSrc="/Ripples.png"
+        postSrc="https://www.linkedin.com/posts/anaghakj_swiftui-swiftui-swift-activity-7133255250961973249-TEn6?utm_source=share&utm_medium=member_desktop"
+        width={300}
+        height={230}
         title="Ripples"
         description="Created a fun UI experience in creating ripples as a way of learning animations and user gestures."
         subTitle="An explorative SwiftUI that creates ripples on tap."

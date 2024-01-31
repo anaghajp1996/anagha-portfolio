@@ -18,6 +18,7 @@ export default function AboutMe() {
           width: "100%",
           height: "100%",
           paddingTop: "90px",
+          paddingBottom: "90px",
         }}
       >
         <div
