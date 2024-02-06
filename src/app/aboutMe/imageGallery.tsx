@@ -27,10 +27,15 @@ export default function ImageGallery() {
   );
 }
 
-const ImageCard = ({ src, alt }) => {
+interface params {
+  src: string;
+  alt: string;
+}
+
+const ImageCard = (params: params) => {
   return (
     <div className={style.imageCard}>
-      <Image width={150} height={200} src={src} alt={alt} />
+      <Image width={150} height={200} src={params.src} alt={params.alt} />
     </div>
   );
 };

@@ -52,7 +52,7 @@ export default function Work(prop: WorkProps) {
         <text className={style.description}>{prop.description}</text>
         <div style={{ display: "flex", gap: "8px", paddingTop: "8px" }}>
           {prop.techUsed.map((tech) => {
-            return <TechIcon key={tech} title={tech}></TechIcon>;
+            return <TechIcon name={tech} key={tech}></TechIcon>;
           })}
         </div>
       </div>
