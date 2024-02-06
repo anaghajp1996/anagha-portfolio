@@ -49,19 +49,19 @@ export default function AboutMe() {
               </mark>
             </p>
             <p className={style.text}>
-              In my downtime, I'm a culinary enthusiast who loves experimenting
+              {`In my downtime, I'm a culinary enthusiast who loves experimenting
               with flavors in the kitchen. Walking with my dog is a cherished
-              routine, and I find solace in the pages of a good book - although
+              routine, and I find solace in the pages of a good book - although`}
               <mark className={style.mark}>
                 {" "}
-                thrillers leave me a tad bit paranoid more often that I'd like
-                to admit.
+                {` thrillers leave me a tad bit paranoid more often that I'd like
+                to admit.`}
               </mark>{" "}
-              I enjoy watching comedy and thriller shows,{" "}
+              {`I enjoy watching comedy and thriller shows,`}{" "}
               <mark className={style.mark}>
-                in pursuit of a good laugh or a nervous chuckle.
+                {`in pursuit of a good laugh or a nervous chuckle.`}
               </mark>{" "}
-              I also relish the opportunity to travel and explore new places.
+              {`I also relish the opportunity to travel and explore new places.`}
             </p>
           </div>
           <div
