@@ -22,7 +22,7 @@ export default function Work(prop: WorkProps) {
         width: "100%",
         padding: "16px",
         gap: "64px",
-        boxShadow: "0px 0.5px 5px 0px rgba(63, 43, 185, 0.20);",
+        boxShadow: "0px 0.5px 5px 0px rgba(63, 43, 185, 0.20)",
         borderRadius: "20px",
       }}
     >
@@ -50,7 +50,13 @@ export default function Work(prop: WorkProps) {
         </Link>
         <text className={style.subTitle}>{prop.subTitle}</text>
         <text className={style.description}>{prop.description}</text>
-        <div style={{ display: "flex", gap: "8px", paddingTop: "8px" }}>
+        <div
+          style={{
+            display: "flex",
+            gap: "8px",
+            paddingTop: "8px",
+          }}
+        >
           {prop.techUsed.map((tech) => {
             return <TechIcon name={tech} key={tech}></TechIcon>;
           })}
