@@ -63,6 +63,16 @@ export default function Expertise() {
           "Subscriptions",
         ]}
       ></Work>
+      <Work
+        imageSrc="/Dictionary.png"
+        postSrc="https://github.com/anaghajp1996/MyDictionary"
+        width={150.0}
+        height={279.6}
+        title="My Dictionary"
+        description="A simple dictionary!"
+        subTitle=""
+        techUsed={["SwiftUI", "Swift", "Animation", "AVFoundation"]}
+      ></Work>
     </div>
   );
 }
