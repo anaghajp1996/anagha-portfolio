@@ -45,7 +45,12 @@ export default function Work(prop: WorkProps) {
           justifyContent: "start",
         }}
       >
-        <Link href={prop.postSrc} className={style.title}>
+        <Link
+          href={prop.postSrc}
+          className={style.title}
+          passHref={true}
+          target="_blank"
+        >
           {prop.title}
         </Link>
         <text className={style.subTitle}>{prop.subTitle}</text>

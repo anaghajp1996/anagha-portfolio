@@ -40,7 +40,7 @@ export default function AboutMe() {
             <p className={style.text}>
               Beyond my professional endeavors, I have an interest in{" "}
               <mark className={style.mark}>
-                cybersecurity, and web development,
+                cybersecurity, and web development,{" "}
               </mark>
               constantly seeking to enhance my skills in this dynamic field. I
               find joy in the process of creating{" "}
