@@ -65,11 +65,11 @@ export default function Expertise() {
       ></Work>
       <Work
         imageSrc="/Dictionary.png"
-        postSrc="https://github.com/anaghajp1996/MyDictionary"
+        postSrc="https://github.com/anaghajp1996/MyDictionary/tree/main/MyDictionary"
         width={150.0}
         height={279.6}
         title="My Dictionary"
-        description="A simple dictionary!"
+        description="A simple dictionary with a fun animation. Used AVPlayer to play audio!"
         subTitle=""
         techUsed={["SwiftUI", "Swift", "Animation", "AVFoundation"]}
       ></Work>
