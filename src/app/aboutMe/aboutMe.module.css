@@ -14,3 +14,25 @@
   background: white;
   font-weight: 700;
 }
+
+.aboutMePara {
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+  .aboutMePicture {
+    display: none;
+  }
+
+  .aboutMePara {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+}

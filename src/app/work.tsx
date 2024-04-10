@@ -16,16 +16,7 @@ interface WorkProps {
 
 export default function Work(prop: WorkProps) {
   return (
-    <div
-      style={{
-        display: "flex",
-        width: "100%",
-        padding: "16px",
-        gap: "64px",
-        boxShadow: "0px 0.5px 5px 0px rgba(63, 43, 185, 0.20)",
-        borderRadius: "20px",
-      }}
-    >
+    <div className={style.work}>
       <div
         style={{ width: "300px", display: "flex", justifyContent: "center" }}
       >

@@ -26,7 +26,7 @@ export default function AboutMe() {
             display: "flex",
           }}
         >
-          <div style={{ width: "100%", height: "100%" }}>
+          <div className={style.aboutMePara}>
             <p className={style.heading}>About Me</p>
             <p className={style.text}>
               Welcome to my portfolio! I am a passionate mobile application
@@ -75,6 +75,7 @@ export default function AboutMe() {
           >
             <div>
               <Image
+                className={style.aboutMePicture}
                 src={"/Me.png"}
                 width="385"
                 height="456"

@@ -7,6 +7,7 @@ import AboutMe from "./aboutMe/page";
 export default function LandingPage() {
   return (
     <div
+      className={style.landingPage}
       style={{
         height: "100%",
         padding: "16px 160px",
@@ -16,6 +17,7 @@ export default function LandingPage() {
     >
       <div className={style.home} style={{ display: "flex" }}>
         <div
+          className={style.title}
           style={{
             textAlign: "left",
             display: "flex",

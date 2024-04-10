@@ -68,6 +68,22 @@
     flex-direction: column;
     gap: 16px;
     align-items: center;
+    justify-content: center;
+  }
+
+  .title {
+    letter-spacing: 5px;
+    align-items: center;
+  }
+
+  .images {
+    display: none;
+  }
+
+  .landingPage {
+    display: "flex";
+    align-items: center;
+    justify-content: center;
   }
 }
 
