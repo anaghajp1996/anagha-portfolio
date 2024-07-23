@@ -48,7 +48,7 @@ export default function Expertise() {
       ></Work>
       <Work
         imageSrc="/TheScene.png"
-        postSrc="https://www.thesceneny.com"
+        postSrc="https://apps.apple.com/us/app/the-scene-nyc/id6479357875"
         width={150.0}
         height={279.6}
         title="The Scene NYC"
