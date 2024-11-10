@@ -32,7 +32,7 @@ export default function Expertise() {
         width={150.0}
         height={279.6}
         title="The Snake Game"
-        description="Created a seamless user engagement by precisely controlling the snake's movement and path manoeuvring. "
+        description="Developed a classic snake game for iOS, implementing the algorithm to control snake movements. This project served as a foundation for learning animations, user gestures, and exploring game development within the iOS ecosystem."
         subTitle="A captivating iOS-based recreation of the iconic Snake game."
         techUsed={["SwiftUI", "Swift", "Core Animation"]}
       ></Work>
@@ -42,8 +42,8 @@ export default function Expertise() {
         width={300}
         height={200}
         title="Ripples"
-        description="Created a fun UI experience in creating ripples as a way of learning animations and user gestures."
-        subTitle="An explorative SwiftUI that creates ripples on tap."
+        description="Interactive SwiftUI experience generating tap-activated ripples, designed as a creative exploration of animations."
+        subTitle="A Fun Animation Journey."
         techUsed={["SwiftUI", "Swift", "Core Animation"]}
       ></Work>
       <Work
@@ -69,7 +69,7 @@ export default function Expertise() {
         width={150.0}
         height={279.6}
         title="My Dictionary"
-        description="A simple dictionary with a fun animation. Used AVPlayer to play audio!"
+        description="A simple dictionary app with playful animations and built-in audio playback, leveraging AVPlayer."
         subTitle=""
         techUsed={["SwiftUI", "Swift", "Animation", "AVFoundation"]}
       ></Work>
