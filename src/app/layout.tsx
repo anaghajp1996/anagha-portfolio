@@ -8,6 +8,17 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Anagha Jayaprakash",
   description: "Anagha's Portfolio",
+  openGraph: {
+    description: "Check out my projects and skills as a mobile app developer.",
+    images: [
+      {
+        url: "/Memoji.png",
+        width: 1200,
+        height: 630,
+        alt: "Banner Image",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
