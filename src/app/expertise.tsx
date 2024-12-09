@@ -25,7 +25,7 @@ export default function Expertise() {
         justifyContent: "center",
         alignItems: "center",
         gap: "32px",
-        boxSizing: "border-box",
+        // boxSizing: "border-box",
       }}
     >
       <text className={style.heading}>Some of my work!</text>
@@ -40,10 +40,8 @@ export default function Expertise() {
         techUsed={[
           "SwiftUI",
           "Swift",
-          "Core Animation",
           "Combine",
-          "In-App Purchases",
-          "Subscriptions",
+          "StoreKit",
         ]}
       ></Work>
       <div className={style.link}>

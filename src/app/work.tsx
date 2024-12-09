@@ -33,7 +33,7 @@ export default function Work(prop: WorkProps) {
           passHref={true}
           target="_blank"
         >
-          <div style={{display: "flex"}}>
+          <div style={{display: "flex", alignItems: "center"}}>
             {prop.title}
             <FontAwesomeIcon
               icon={faArrowUpRightFromSquare}

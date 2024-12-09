@@ -55,5 +55,6 @@
   
   .description {
     font-size: 2vw;
+    text-align: justify;
   }
 }
