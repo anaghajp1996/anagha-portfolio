@@ -17,15 +17,15 @@ export default function Expertise() {
       id="expertise"
       className={mulish.className}
       style={{
-        padding: "16px 160px",
+        // padding: "16px 160px",
         paddingBottom: "120px",
-        margin: "32px",
+        margin: "20%",
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
         gap: "32px",
-        // boxSizing: "border-box",
+        boxSizing: "border-box",
       }}
     >
       <text className={style.heading}>Some of my work!</text>

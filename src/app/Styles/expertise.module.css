@@ -44,4 +44,11 @@
   .link {
     font-size: 2vw;
   }
+
+  .bottomBorder {
+    border-bottom: 0.5px solid #414141;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 100%;
+  }
 }
