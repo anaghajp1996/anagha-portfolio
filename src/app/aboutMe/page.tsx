@@ -5,7 +5,7 @@ import ImageGallery from "./imageGallery";
 import Header from "../header";
 import Footer from "../footer";
 
-const mulish = Mulish({ subsets: ["latin"] });
+const mulish = Mulish({ subsets: ["latin"], display: "swap",});
 
 export default function AboutMe() {
   return (

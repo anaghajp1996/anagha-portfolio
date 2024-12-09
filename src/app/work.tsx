@@ -18,17 +18,6 @@ export default function Work(prop: WorkProps) {
   return (
     <div className={style.work}>
       <div
-        style={{ width: "300px", display: "flex", justifyContent: "center" }}
-      >
-        <Image
-          src={prop.imageSrc}
-          height={prop.height}
-          width={prop.width}
-          alt=""
-        ></Image>
-      </div>
-
-      <div
         style={{
           display: "flex",
           flexDirection: "column",
@@ -49,14 +38,24 @@ export default function Work(prop: WorkProps) {
         <div
           style={{
             display: "flex",
-            gap: "8px",
-            paddingTop: "8px",
+            gap: "12px",
+            paddingTop: "24px",
           }}
         >
           {prop.techUsed.map((tech) => {
             return <TechIcon name={tech} key={tech}></TechIcon>;
           })}
         </div>
+      </div>
+      <div
+        style={{  display: "flex", justifyContent: "center" }}
+      >
+        <Image
+          src={prop.imageSrc}
+          height={prop.height * 1.5}
+          width={prop.width * 1.5}
+          alt=""
+        ></Image>
       </div>
     </div>
   );

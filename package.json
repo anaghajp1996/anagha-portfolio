@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@nextui-org/divider": "^2.2.4",
     "@vercel/speed-insights": "^1.0.10",
     "next": "latest",
     "react": "latest",
