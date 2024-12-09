@@ -32,17 +32,8 @@
   border-radius: 28.406px;
   font-weight: 400;
   text-decoration: none;
-  position: relative;
-  text-decoration: none;
-  color: black;
-}
-
-.link:hover {
-  font-weight: 700;
-}
-
-.link::before {
-  font-weight: 700;
+  text-align: center;
+  text-decoration: underline;
 }
 
 @media only screen and (max-width: 800px) {

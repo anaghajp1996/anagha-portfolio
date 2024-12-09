@@ -44,7 +44,7 @@ export default function Expertise() {
           "StoreKit",
         ]}
       ></Work>
-      <div className={style.link}>
+      {/* <div className={style.link}> */}
         <Link
           href="https://techcrunch.com/2024/07/22/the-scene-app-matches-new-yorkers-with-restaurants-bars-clubs/"
           className={style.link}
@@ -53,11 +53,11 @@ export default function Expertise() {
         >
           The app was featured on TechCrunch. Check it out!
         </Link>
-        <FontAwesomeIcon
+        {/* <FontAwesomeIcon
           icon={faArrowUpRightFromSquare}
           style={{ width: "10", paddingLeft: "8px" }}
-        />
-      </div>
+        /> */}
+      {/* </div> */}
       <div className={style.bottomBorder}></div>
       <Work
         imageSrc="/Snake.png"
