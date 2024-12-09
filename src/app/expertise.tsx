@@ -45,7 +45,7 @@ export default function Expertise() {
         ]}
       ></Work>
       <div>
-      <Link
+        <Link
           href="https://techcrunch.com/2024/07/22/the-scene-app-matches-new-yorkers-with-restaurants-bars-clubs/"
           className={style.link}
           passHref={true}

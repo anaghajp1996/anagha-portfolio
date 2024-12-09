@@ -2,6 +2,8 @@ import TechIcon from "./techIcon";
 import style from "./Styles/work.module.css";
 import Link from "next/link";
 import Image from "next/image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 
 interface WorkProps {
   title: string;
@@ -31,7 +33,13 @@ export default function Work(prop: WorkProps) {
           passHref={true}
           target="_blank"
         >
-          {prop.title}
+          <div style={{display: "flex"}}>
+            {prop.title}
+            <FontAwesomeIcon
+              icon={faArrowUpRightFromSquare}
+              style={{ width: "10", paddingLeft: "8px" }}
+            />
+          </div>
         </Link>
         <text className={style.subTitle}>{prop.subTitle}</text>
         <text className={style.description}>{prop.description}</text>
@@ -47,9 +55,7 @@ export default function Work(prop: WorkProps) {
           })}
         </div>
       </div>
-      <div
-        style={{  display: "flex", justifyContent: "center" }}
-      >
+      <div style={{ display: "flex", justifyContent: "center" }}>
         <Image
           src={prop.imageSrc}
           height={prop.height * 1.5}

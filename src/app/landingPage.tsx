@@ -13,6 +13,7 @@ export default function LandingPage() {
         padding: "16px 160px",
         display: "flex",
         alignContent: "center",
+        justifyContent: "center"
       }}
     >
       <div className={style.home} style={{ display: "flex" }}>

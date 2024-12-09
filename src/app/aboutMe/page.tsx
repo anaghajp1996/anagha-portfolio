@@ -12,19 +12,10 @@ export default function AboutMe() {
     <div className={mulish.className} id="aboutMe" style={{}}>
       <Header home={"/"} expertise={"/#expertise"}></Header>
       <div
-        style={{
-          padding: "0px 64px",
-          boxSizing: "border-box",
-          width: "100%",
-          height: "100%",
-          paddingTop: "90px",
-          paddingBottom: "90px",
-        }}
+        className={style.page}
       >
         <div
-          style={{
-            display: "flex",
-          }}
+          className={style.aboutMe}
         >
           <div className={style.aboutMePara}>
             <p className={style.heading}>About Me</p>

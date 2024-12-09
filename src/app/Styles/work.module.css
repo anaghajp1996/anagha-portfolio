@@ -42,6 +42,18 @@
     align-items: center;
     box-shadow: none;
     border-radius: 0%;
-    border-bottom: solid 0.5px black;
+    font-size: 2vw;
+  }
+
+  .title {
+    font-size: 2vw;
+  }
+
+  .subTitle {
+    font-size: 2vw;
+  }
+  
+  .description {
+    font-size: 2vw;
   }
 }
