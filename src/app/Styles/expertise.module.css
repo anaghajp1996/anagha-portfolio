@@ -27,33 +27,30 @@
 }
 
 .link {
-  color: #3f2bb9;
-  font-size: 1vw;
+  display: flex;
+  font-size: 1.2vw;
   border-radius: 28.406px;
-  font-weight: 600;
+  font-weight: 400;
   text-decoration: none;
   position: relative;
+  text-decoration: none;
+  color: black;
 }
 
-.link:hover::before {
-  bottom: 0;
-  height: 100%;
+.link:hover {
+  font-weight: 700;
 }
 
 .link::before {
-  content: '';
-  background-color: #FFD700;
-  position: absolute;
-  left: 0;
-  bottom: 3px;
-  width: 100%;
-  height: 8px;
-  z-index: -1;
-  transition: all .3s ease-in-out;
+  font-weight: 700;
 }
 
 @media only screen and (max-width: 800px) {
   .heading {
     font-size: 2vw;
+  }
+
+  .link {
+    font-size: 3vw;
   }
 }

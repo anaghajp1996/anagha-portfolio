@@ -6,6 +6,8 @@ import "./Constants";
 import { technologyUsed } from "./Constants";
 import Work from "./work";
 import Link from "next/link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 
 const mulish = Mulish({ subsets: ["latin"] });
 
@@ -44,15 +46,19 @@ export default function Expertise() {
           "Subscriptions",
         ]}
       ></Work>
-      <div>
+      <div className={style.link}>
         <Link
           href="https://techcrunch.com/2024/07/22/the-scene-app-matches-new-yorkers-with-restaurants-bars-clubs/"
           className={style.link}
           passHref={true}
           target="_blank"
         >
-        The app was featured on TechCrunch. Check it out!
+          The app was featured on TechCrunch. Check it out!
         </Link>
+        <FontAwesomeIcon
+          icon={faArrowUpRightFromSquare}
+          style={{ width: "10", paddingLeft: "8px" }}
+        />
       </div>
       <div className={style.bottomBorder}></div>
       <Work
