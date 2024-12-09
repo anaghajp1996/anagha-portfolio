@@ -39,6 +39,7 @@
 @media only screen and (max-width: 800px) {
   .heading {
     font-size: 2vw;
+    letter-spacing: 2px;
   }
 
   .link {
