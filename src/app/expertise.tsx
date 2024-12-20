@@ -6,8 +6,7 @@ import "./Constants";
 import { technologyUsed } from "./Constants";
 import Work from "./work";
 import Link from "next/link";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+import Image from "next/image";
 
 const mulish = Mulish({ subsets: ["latin"] });
 
@@ -19,7 +18,7 @@ export default function Expertise() {
       style={{
         // padding: "16px 160px",
         paddingBottom: "120px",
-        margin: "20%",
+        margin: "0% 20%",
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
@@ -29,6 +28,17 @@ export default function Expertise() {
       }}
     >
       <text className={style.heading}>Some of my work!</text>
+      <Link
+        href="https://techcrunch.com/2024/07/22/the-scene-app-matches-new-yorkers-with-restaurants-bars-clubs/"
+        className={style.banner}
+        passHref={true}
+        target="_blank"
+      >
+        <Image src="/TechCrunch.png" layout="responsive" width={600} height={300} alt=""></Image>
+        <div style={{margin: "5%", display: "flex", textAlign: "center", justifyContent: "center"}}>
+          <text className={style.bannerDescription}>The iOS app I built for The Scene was featured on TechCrunch. Check it out!</text>
+        </div>
+      </Link>
       <Work
         imageSrc="/TheScene.png"
         postSrc="https://apps.apple.com/us/app/the-scene-nyc/id6479357875"
@@ -37,27 +47,30 @@ export default function Expertise() {
         title="The Scene NYC"
         description="Developed the iOS app from ground up, for a user base of over 12k, within 2 months."
         subTitle="An AI-driven personal concierge app."
-        techUsed={[
-          "SwiftUI",
-          "Swift",
-          "Combine",
-          "StoreKit",
-        ]}
+        techUsed={["SwiftUI", "Swift", "Combine", "StoreKit"]}
       ></Work>
-      {/* <div className={style.link}> */}
-        <Link
-          href="https://techcrunch.com/2024/07/22/the-scene-app-matches-new-yorkers-with-restaurants-bars-clubs/"
-          className={style.link}
-          passHref={true}
-          target="_blank"
-        >
-          The app was featured on TechCrunch. Check it out!
-        </Link>
-        {/* <FontAwesomeIcon
-          icon={faArrowUpRightFromSquare}
-          style={{ width: "10", paddingLeft: "8px" }}
-        /> */}
-      {/* </div> */}
+      <div className={style.bottomBorder}></div>
+      <Work
+        imageSrc="/ZAK.png"
+        postSrc="https://apps.apple.com/in/app/zoos-of-karnataka/id1522015719"
+        width={150.0}
+        height={279.6}
+        title="Zoos of Karnataka"
+        description="Developed and launched the application in 3 days, garnering over 1k downloads and support animal welfare awareness, bringing in over $8k in donations to zoos."
+        subTitle="A Flutter app that helps users support wild animals by adopting them and donating to zoos."
+        techUsed={["Flutter", "Dart", "RayzorPay"]}
+      ></Work>
+      <div className={style.bottomBorder}></div>
+      <Work
+        imageSrc="/Dictionary.png"
+        postSrc="https://github.com/anaghajp1996/MyDictionary/tree/main/MyDictionary"
+        width={150.0}
+        height={279.6}
+        title="My Dictionary"
+        description="A simple app with playful animations and built-in audio playback, leveraging AVPlayer."
+        subTitle="A SwiftUI dictionary app."
+        techUsed={["SwiftUI", "Swift", "Animation", "AVFoundation"]}
+      ></Work>
       <div className={style.bottomBorder}></div>
       <Work
         imageSrc="/Snake.png"
@@ -79,28 +92,6 @@ export default function Expertise() {
         description="Interactive SwiftUI experience generating tap-activated ripples, designed as a creative exploration of animations."
         subTitle="A Fun Animation Journey."
         techUsed={["SwiftUI", "Swift", "Core Animation"]}
-      ></Work>
-      <div className={style.bottomBorder}></div>
-      <Work
-        imageSrc="/Dictionary.png"
-        postSrc="https://github.com/anaghajp1996/MyDictionary/tree/main/MyDictionary"
-        width={150.0}
-        height={279.6}
-        title="My Dictionary"
-        description="A simple app with playful animations and built-in audio playback, leveraging AVPlayer."
-        subTitle="A SwiftUI dictionary app."
-        techUsed={["SwiftUI", "Swift", "Animation", "AVFoundation"]}
-      ></Work>
-      <div className={style.bottomBorder}></div>
-      <Work
-        imageSrc="/ZAK.png"
-        postSrc="https://apps.apple.com/in/app/zoos-of-karnataka/id1522015719"
-        width={150.0}
-        height={279.6}
-        title="Zoos of Karnataka"
-        description="Developed and launched the application in 3 days, garnering over 1k downloads and support animal welfare awareness, bringing in over $8k in donations to zoos."
-        subTitle="A Flutter app that helps users support wild animals by adopting them and donating to zoos."
-        techUsed={["Flutter", "Dart", "RayzorPay"]}
       ></Work>
     </div>
   );
